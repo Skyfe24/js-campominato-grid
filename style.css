@@ -58,3 +58,8 @@ body{
   display: flex;
   flex-wrap: wrap;
 }
+
+.fa-angle-down::before {
+  content: "\f107";
+  padding: 50px;
+}
