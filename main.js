@@ -17,6 +17,15 @@ buttonView.addEventListener('click', function() {
     box.className = 'box';
     box.innerText = i+1;
     grid.appendChild(box);
+
+    box.addEventListener('click', function() {
+        box.className += ('clicked')
+        console.log(i+1)
+    })
+    
+
+
+
   }
 });
 

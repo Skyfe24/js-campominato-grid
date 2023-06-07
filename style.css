@@ -30,6 +30,7 @@ body{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .box.clicked{
