@@ -15,6 +15,8 @@ buttonView.addEventListener('click', function() {
   for (let i = 0; i < totalBoxes; i++) {
     const box = document.createElement('div');
     box.className = 'box';
+    box.innerText = i+1;
     grid.appendChild(box);
   }
 });
+
