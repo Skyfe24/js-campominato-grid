@@ -19,7 +19,7 @@ buttonView.addEventListener('click', function() {
     grid.appendChild(box);
 
     box.addEventListener('click', function() {
-        box.className += ('clicked')
+        box.classList.add('clicked')
         console.log(i+1)
     })
     
