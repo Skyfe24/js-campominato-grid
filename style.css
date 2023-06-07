@@ -33,8 +33,15 @@ body{
   cursor: pointer;
 }
 
-.box.clicked{
+.clicked{
   background-color: rgb(34, 158, 230);
+  flex-basis: calc(100% / 10);
+  border: 2px solid salmon;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .flex {
